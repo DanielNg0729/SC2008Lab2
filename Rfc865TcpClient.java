@@ -7,7 +7,7 @@ public class Rfc865TcpClient {
     public static void main(String[] args) {
  
         String serverHost = "localhost";
-        int serverPort = 1718;             // 17 in the lab
+        int serverPort = 17;             // 17 in the lab
         String message = "YourName, YourLabGroup, YourClientIPAddress";
  
         try {

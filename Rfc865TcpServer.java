@@ -8,7 +8,7 @@ public class Rfc865TcpServer {
  
     public static void main(String[] args) {
  
-        int port = 1718;                   // 17 in lab
+        int port = 17;                   // 17 in lab
  
         String[] quotes = {
             "The unexamined life is not worth living. -- Socrates",
