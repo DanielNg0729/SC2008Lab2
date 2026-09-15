@@ -5,7 +5,7 @@ import java.util.Random;
 public class RFC865UDPServer {
     public static void main(String[] args) {
         // Port 17 need admin rights
-        int port = 1717;
+        int port = 17;
         String[] quotes = {
             "The unexamined life is not worth living. -- Socrates",
             "Well begun is half done. -- Aristotle",

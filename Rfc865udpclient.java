@@ -6,9 +6,9 @@ import java.net.SocketTimeoutException;
 
 public class Rfc865udpclient {
     public static void main(String[] args) {
-        String serverHost = "";
-        int serverPort = 1717; // Change to 17 later
-        String message = "Name, LabGr, CLientIPAddr";
+        String serverHost = "localhost";
+        int serverPort = 17; // Change to 17 later
+        String message = "Nguyen Hoang Duong, SCSA, CLientIPAddr";
 
         try {
             // get the IP address of the server from its name
